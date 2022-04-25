@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -17,8 +24,8 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   position: relative;
-  margin-bottom: 100px;
   background-color: #f2f2f2;
+  display: flex;
 }
 
 .logo {
@@ -40,9 +47,8 @@
   display: flex;
   align-items: center;
   margin-left: 64px;
-}
+  margin: auto 0 auto 64px;
 
-.header__title-text {
   color: #000;
   font-size: 102px;
   line-height: 96px;
@@ -55,13 +61,9 @@
   width: 388px;
   bottom: 30px;
   left: 64px;
-}
-
-.header__subtitle-text {
-  position: relative;
   font-size: 18px;
   line-height: 25px;
-  z-index: 4;
+  z-index: 2;
 }
 
 .link {
@@ -106,7 +108,7 @@
 .two-columns__brief {
   width: 175px;
   color: #2f80ed;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
 }
@@ -135,18 +137,13 @@
 
 
 .digits {
-  margin-bottom: 100px;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .section-title {
-
   width: 60%;
   margin: 0 auto 20px;
-}
-
-
-.section-title-text {
   text-align: center;
   font-size: 60px;
   line-height: 1.15;
@@ -156,10 +153,7 @@
 
 .section-subtitle {
   width: 60%;
-  margin: 0 auto 20px;
-}
-
-.section-subtitle-text {
+  margin: 0 auto 0;
   text-align: center;
   font-weight: normal;
   font-size: 24px;
@@ -178,12 +172,15 @@
 
 .table__cell {
   width: 250px;
+  margin-top: 60px;
 }
+
 
 .table__heading {
   font-size: 24px;
   line-height: 1.15;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .table__text {
@@ -193,6 +190,7 @@
 }
 
 .feynman {
+  padding-top: 100px;
   position: relative;
   height: 800px;
   background-color: #f2f2f2;
@@ -203,9 +201,6 @@
   margin: 0 auto;
   position: relative;
   z-index: 1;
-}
-
-.feynman__title-text {
   font-size: 120px;
   line-height: 1.15;
   font-weight: bold;
@@ -217,9 +212,6 @@
   text-align: center;
   margin-top: 70px;
   z-index: 1;
-}
-
-.feynman__subtitle-text {
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
@@ -250,22 +242,16 @@
 .section-title_theme_dark {
   color: white;
   margin-top: 90px;
-  margin-bottom: 20px;
   z-index: 2;
-}
-
-.section-title-text_theme_dark {
   font-size: 60px;
   line-height: 1.15;
   font-weight: bold;
 }
 
+
 .section-subtitle_theme_dark {
   color: white;
   z-index: 2;
-}
-
-.section-subtitle-text_theme_dark {
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
