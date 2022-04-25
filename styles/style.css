@@ -18,6 +18,7 @@
   /* выше установили ограничения для секции */
   position: relative;
   margin-bottom: 100px;
+  background-color: #f2f2f2;
 }
 
 .logo {
