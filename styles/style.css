@@ -223,7 +223,9 @@
   position: absolute;
   right: 48px;
   top: 50%;
-  font-size: 30px;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
   z-index: 1;
 }
 
