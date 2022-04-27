@@ -25,7 +25,7 @@
   /* выше установили ограничения для секции */
   position: relative;
   background-color: #f2f2f2;
-  display: flex;
+  /* display: flex; */
   overflow: hidden;
 }
 
@@ -44,18 +44,18 @@
 }
 
 .header__title {
+  margin: 0;
   height: 100%;
-  width: 730px;
+  max-width: 730px;
   display: flex;
   align-items: center;
-  margin-left: 64px;
-  margin: auto 0 auto 64px;
-
   color: #000;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
   z-index: 2;
+  margin-left: 64px;
+  align-self: center;
 }
 
 .header__subtitle {
